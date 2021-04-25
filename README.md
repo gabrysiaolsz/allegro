@@ -10,9 +10,7 @@
     - Run the app with:
       `$ uvicorn main:app --reload --port 8000`
 
-      In the output, there's a line with something like this:
-      `Uvicorn running on http://127.0.0.1:8000`. That line shows the URL where the app is being served, in your local
-      machine - it's the `localhost:8000`
+      The output shows the URL where the app is being served in your local machine - it's the `localhost:8000`
     - To see the list of all public repositories (with name and stargazers count) of a given user, open your browser on:
       `localhost:8000/users/username/repos`, changing the `username` with the username of a user you want to see
       the information about.
